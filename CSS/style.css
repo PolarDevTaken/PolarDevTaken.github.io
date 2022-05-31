@@ -9,6 +9,7 @@ body{
           -ms-animation: fadein 2s; 
            -o-animation: fadein 2s; 
               animation: fadein 2s;
+    
   }
   
   @keyframes fadein {
@@ -627,9 +628,80 @@ div.cinemaName h1 {
         border:black solid 2px;
         text-align:center;
         font-size:small;
-        margin-top: 100%;
+        margin-top: 50px;
+        z-index: -5;
     }
     
     footer>p{
         margin-top: 10px;
+        z-index: -5;
+    }
+
+    .updates{
+      float:left;
+      border-style: solid;
+      border-color: #0011ff;
+      height: 650px;
+      width: 500px;
+      margin-left: 100px;
+      margin-top: 50px;
+    }
+
+    .slidemain{
+      float:right;
+      border-style: solid;
+      border-color: #0011ff;
+      height: 650px;
+      width: 500px;
+      margin-right: 100px;
+      margin-top: 50px;
+    }
+
+    .maindescription{
+      float:left;
+      text-align: center;
+      margin-left: 80px;
+      margin-top: 80px;
+      border-style: solid;
+      border-color: #0011ff;
+      height: 400px;
+      width: 500px;
+      
+    }
+
+    .repertuarbutton{
+      float:left;
+      text-align: center;
+      margin-left: 175px;
+      margin-top: 70px;
+      border-style: solid;
+      border-color: #0011ff;
+      height: 80px;
+      width: 300px;
+      
+    }
+
+    .parabruh{
+      margin-top: 20px;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    .repertuar{
+      border-style: solid;
+      border-color: #0011ff;
+      height: 800px;
+      width: 1665px;
+      margin-left: 100px;
+      margin-top: 800px;
+    }
+
+    .kinofooter{
+      background-color: lightblue;
+      height: 40px;
+      border:black solid 2px;
+      text-align:center;
+      font-size:small;
+      margin-top: 900px;
+      z-index: -5;
     }
