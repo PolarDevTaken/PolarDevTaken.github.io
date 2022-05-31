@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap&subset=latin-ext');
 body{
     background-color: white;
-    background-color: white;
+    
   
       -webkit-animation: fadein 2s; 
          -moz-animation: fadein 2s; 
@@ -540,31 +540,39 @@ div.cinemaName h1 {
       max-width: 1000px;
       position: relative;
       margin: auto;
+      text-align: center;
     }
 
     .mySlides {
         display: none;
       }
       
+    .desc{
+      font-size: 25px;
+        display: none;
+      }
+
       /* Next & previous buttons */
       .prev, .next {
         cursor: pointer;
-        position: absolute;
+        position: relative;
         top: 50%;
         width: auto;
         margin-top: -22px;
         padding: 16px;
-        color: white;
+        color: rgb(0, 119, 255);
         font-weight: bold;
         font-size: 18px;
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
+        bottom: 300px;
+        right: 250px;
       }
       
       /* Position the "next button" to the right */
       .next {
-        right: 0;
+        right: -250px;
         border-radius: 3px 0 0 3px;
       }
       
@@ -705,3 +713,5 @@ div.cinemaName h1 {
       margin-top: 900px;
       z-index: -5;
     }
+
+  

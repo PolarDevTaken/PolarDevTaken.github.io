@@ -59,16 +59,28 @@ function showSlides(n) {
   let slides = document.getElementsByClassName("mySlides");
   console.log(slides);
   let dots = document.getElementsByClassName("dot");
+  let desc = document.getElementsByClassName("desc");
+  console.log(desc);
+
+
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "none"; 
   }
+
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = desc.length}
+  for (i = 0; i <desc.length; i++) {
+    desc[i].style.display = "none"; 
+  }
+
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  desc[slideIndex-1].style.display = "block";
+  
 }
 
 
