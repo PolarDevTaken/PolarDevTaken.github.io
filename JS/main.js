@@ -28,6 +28,8 @@ function myFunction() {
       }
     }
   }
+  
+
   let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -37,7 +39,7 @@ function plusSlides(n) {
 }
 
 // Thumbnail image controls
-function currentSlide (n) {
+function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
