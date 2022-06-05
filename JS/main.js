@@ -59,3 +59,36 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+//The script for tables index
+let tableIndex = 1;
+showTables(tableIndex);
+
+// Next/previous controls
+function plusTables(n) {
+  showTables(tableIndex += n);
+}
+
+// Thumbnail image controls
+function currentTables(n) {
+  showTables(tableIndex = n);
+}
+
+function showTables(n) {
+  let i;
+  let slides = document.getElementsByClassName("myTables");
+
+  console.log(slides);
+
+
+  if (n > slides.length) {tableIndex = 1}
+  if (n < 1) {tableIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+
+  slides[tableIndex-1].style.display = "block";
+ 
+  
+}
