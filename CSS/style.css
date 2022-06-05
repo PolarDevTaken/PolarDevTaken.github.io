@@ -293,78 +293,7 @@ div.cinemaName h1 {
     }
 }
 
-/* Description */
 
-.description {
-    min-height: 100vh;
-    padding-top: 8vh;
-}
-
-.description div {
-    width: 80%;
-    margin: auto;
-    font-family: 'Merriweather', serif;
-    text-align: center;
-}
-
-.description div p {
-    color: #070d59;
-    font-size: 10px;
-    line-height: 200%;
-}
-
-.description div p::first-letter {
-    font-size: 34px;
-}
-
-@media(min-width: 360px) and (orientation: portrait) {
-    .description div p {
-        font-size: 12px;
-
-    }
-
-    .description div p::first-letter {
-        font-size: 36px;
-    }
-}
-
-@media(min-width: 1024px) and (orientation: portrait) {
-    .description div p {
-        font-size: 30px;
-
-    }
-
-    .description div p::first-letter {
-        font-size: 54px;
-    }
-}
-
-@media(min-width: 640px) and (orientation: landscape) {
-
-
-    .description div p {
-        font-size: 12px;
-    }
-
-    .description div p::first-letter {
-        font-size: 36px;
-    }
-}
-
-@media(min-width: 1366px) and (orientation: landscape) {
-    .description div {
-        width: 70%;
-
-    }
-
-    .description div p {
-        font-size: 24px;
-    }
-
-    .description div p::first-letter {
-        font-size: 48px;
-    }
-}
 
 /* Photos */
 
