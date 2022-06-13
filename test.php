@@ -14,7 +14,7 @@ if($onenumber + $twonumber == 360){
 }
 
 if($onenumber + $twonumber == 69){
-  echo("Nsfw art of roblox appearing in 5 seconds...");
+  echo("Joe appearing in 5...");
   exit();
 }
 
