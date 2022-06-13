@@ -189,3 +189,15 @@ body {
   -moz-box-shadow: 20px 0px 25px 5px #295d92;
   box-shadow: 22px 0px 35px 0px rgba(0,0,0,0.5);
 }
+
+.zadanie7_box {
+    background-color: grey;
+    width: 85px;
+    height: 85px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: large;
+}
+.other {
+    background-color: #ff3333;
+}
