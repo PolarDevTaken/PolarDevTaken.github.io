@@ -201,3 +201,9 @@ body {
 .other {
     background-color: #ff3333;
 }
+
+.kontenerzad7 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
