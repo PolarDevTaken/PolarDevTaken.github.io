@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html>
 
-wip
+
+
 <head>
+    <link rel ="stylesheet" href="style5.css">
+    <meta name="description" content="Contact me!"/>
+    <meta name="robots" content="noindex"/>
+<title>Contact Form</title>
 
 </head>
 
 <body>
 
+<form method="GET" action="form.html">
+            <fieldset class="osobowe">
+                <legend>Dane osobowe</legend>
+
+                <label>Podaj imię: <input type="text" required="required" size="20" placeholder="Imię"> <br> <br> </label>
+                <label>Podaj nazwisko: <input type="text" required="required" size="20" placeholder="Nazwisko"> <br> <br> </label>
+                <label>Podaj wiek: <input type="number" min="18" max="122"> <br> <br> </label>
+                <label>Podaj date urodzenia: <input type="date"> <br> <br> </label>
+                <label>Podaj godzinę urodzenia: <input type="time"> <br> <br> </label>
+                <label>Zainteresowania</label> <br>
+                <select>
+                    <option>Zainteresowanie 1</option>
+                    <option>Zainteresowanie 2</option>
+                    <option>Zainteresowanie 3</option>
+                    <option>Zainteresowanie 4</option>
+                    <option>Zainteresowanie 5</option>
+                    <option>Zainteresowanie 6</option>
+                    <option>Zainteresowanie 7</option>
+                    <option>Zainteresowanie 8</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="kontaktowe">
+                <legend>Dane kontaktowe</legend>
+
+                <label>Adres: <input type="text" required="required" size="20"> <br> <br> </label>
+                <label>Numer karty: <input type="password" size="20"> <br> <br> </label>
+                <label>E-mail: <input type="email" required="required" size="20"> <br> <br> </label>
+                <label>Pześlij plik: <input type="file"> <br> <br> </label>
+                <label>Dodatkowe informacje: <br> <textarea rows="10" cols="30"></textarea> </label>
+            </fieldset>
+
+            <fieldset class="dodatkowe">
+                <legend>Dodatkowe</legend>
+
+                <label><input type="checkbox" required="required"> Wyrażam zgodę na przetwarzanie moich danych osobowych <br> <br> </label>
+                <label><input type="checkbox"> Wyrażam zgodę na przesyłanie newslettera.</label>
+                
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Wyślij"> <input type="reset" value="Zresetuj">
+        </form>
+  
+
 </body>
+
 
 
 </html>
