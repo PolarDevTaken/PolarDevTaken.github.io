@@ -1,0 +1,191 @@
+
+
+ul{
+    list-style-type:circle;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+ol{
+    list-style-type:circle;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.alternate {
+    font-family: Calibri;
+    text-align:center;
+    width: 270px;
+    display: block;
+    background-color: cyan;
+    border-radius: 1px;
+    border: 1px solid #0084FF;
+    border-width: 3px;
+    color: #DC143C;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+body {
+    
+            font-family: Calibri;
+            background-color:burlywood;
+            animation: fadeInAnimation ease 5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: backwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+
+    #normalphoto {
+       width:300px;
+       height:200px;
+       border-radius: 5%;
+    }
+
+    #normalphoto2 {
+        width:300px;
+        height:200px;
+        border-radius: 10%;
+     }
+
+    .redishborder {
+        border-color: #DC143C;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 20%;
+    } 
+
+
+    .maintext {
+       color: #000;
+       font-family: Calibri;
+    }
+    .maintext2 {
+      color: #fff;
+      font-family: Calibri;
+    }
+
+
+    table,tr,td{
+        border-style: solid;
+        border-color:crimson;
+        border-width: 1px;
+        text-align: center;
+        background-color:rgba(25, 190, 255, 0.39);
+        font-family: Calibri;
+    }
+
+    .photo1 {
+        float: left;
+        clear: none;
+    }
+    
+    .photo2 {
+        float: right;
+        clear: none;
+        padding-top:100px;
+
+    }
+    
+    .photo3 {
+        clear: none;
+        padding-top: 100px;
+    }
+    .photograph1 {
+        font-family: Calibri;
+        font-size: 20px;
+        clear: none;
+        padding-top:100px;
+    }
+    
+    .photograph2 {
+        font-family: Calibri;
+        font-size: 20px;
+        clear: left;
+        padding-top:100px;
+    }
+
+   .photograph3{
+       font-family: Calibri;
+       font-size: 20px;
+       clear:none;
+       padding-top: 150px;
+   } 
+    
+   p {
+       font-family: Calibri;
+       font-size: 20px;
+   }
+
+   .medycyna{
+       height: 150px;
+       width: 200px;
+       float: left;
+       padding-right: 15px;
+       margin-bottom: -10px;
+       margin-top: 15px;
+   }
+
+   fieldset {
+    background-color: #c49f71;
+    border-radius: 10px;
+  }
+  
+  
+body {
+   background:#dfe6e9;
+}
+
+.cien {
+	position: relative;
+  background: #fff;
+  width: 50%;
+  margin: 100px auto;
+  box-shadow: 0px 2px 38px rgba(0, 0, 0, 0.2);
+  height: 400px;
+}
+.cien:after, .cien:before{
+  content: '';
+  position: absolute;
+  left: auto;
+  background:none;
+  z-index: -1;
+}
+.cien:after{
+  width: 90%;
+  height: 10px;
+  top: 30px;
+  right:8px;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  -webkit-box-shadow: 0px -20px 36px 5px #295d92;
+  -moz-box-shadow: 0px -20px 36px 5px #295d92;
+  box-shadow: 0px -25px 35px 0px rgba(0,0,0,0.5);
+}
+
+.cien:before{
+  width: 10px;
+  height: 95%;
+  top: 5px;
+  right:18px;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  -webkit-box-shadow: 20px 0px 25px 5px #295d92;
+  -moz-box-shadow: 20px 0px 25px 5px #295d92;
+  box-shadow: 22px 0px 35px 0px rgba(0,0,0,0.5);
+}
