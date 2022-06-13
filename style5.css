@@ -214,12 +214,6 @@ body {
 }
 
 .beforeaftertest::after {
-  content: "";
-  position: absolute;
-  width: 30%;
-  height: 8px;
-  bottom: 0;
-  left: 0;
-  transform: translateX(200%) skew(-50deg);
-  background-image: linear-gradient(120deg, #FF0080,#40E0D0,#FF8C00  ); 
+  content: "AfterExample";
+
 }
